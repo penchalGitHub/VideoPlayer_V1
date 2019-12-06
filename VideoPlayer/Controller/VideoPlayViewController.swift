@@ -23,7 +23,7 @@ class VideoPlayViewController: UIViewController, WKNavigationDelegate {
         stopActivityViewer()
         
     }
-    
+//Playing video file in web view mode
     func playVideo(){
        // let urlString = "https://www.finnovationz.com/dummy/Lost-in-Space.mp4"
         let videoURL = URL(string: videoUrl)
